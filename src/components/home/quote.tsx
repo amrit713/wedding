@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Seperator } from "../seperator";
+import { Seperator } from "../ui/seperator";
 
 export const Quote = () => {
   return (

@@ -1,8 +1,8 @@
 "use client";
 
-import { Seperator } from "@/components/seperator";
+import { Seperator } from "@/components/ui/seperator";
 import { ServiceCard } from "./service-card";
-import { services } from "@/libs/services";
+import { services } from "@/lib/services";
 
 export const OurSerive = () => {
   return (

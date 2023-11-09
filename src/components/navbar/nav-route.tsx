@@ -9,19 +9,19 @@ const navRoutes = [
   },
   {
     title: "Service",
-    href: "/",
+    href: "/service",
   },
   {
     title: "Gallery",
-    href: "/",
+    href: "/gallery",
   },
   {
     title: "About us",
-    href: "/",
+    href: "/about",
   },
   {
     title: "Contact",
-    href: "/",
+    href: "/contact",
   },
 ];
 
@@ -34,7 +34,7 @@ export const NavRoutes = ({ center }: { center?: string }) => {
         <Link
           href={route.href}
           key={route.title}
-          className="hover:text-red-200 transition   "
+          className="hover:text-red-200 transition    "
         >
           {route.title}
         </Link>

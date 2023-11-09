@@ -2,7 +2,7 @@
 
 import { AiOutlineMenu } from "react-icons/ai";
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { NavRoutes } from "./nav-route";
 
 export const NavMobile = () => {

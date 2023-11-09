@@ -1,6 +1,6 @@
 "use client";
 
-import { Seperator } from "@/components/seperator";
+import { Seperator } from "@/components/ui/seperator";
 import Image from "next/image";
 
 export const OurWork = () => {

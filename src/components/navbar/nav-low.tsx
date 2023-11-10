@@ -7,7 +7,7 @@ import { NavMobile } from "./nav-mobile";
 
 export const NavLow = () => {
   return (
-    <div className="h-[70px] flex items-center w-full px-2 justify-between ">
+    <div className="h-[70px] flex items-center w-full justify-between  px-6  max-w-[1560px] mx-auto ">
       <h1 className=" text-2xl font-semibold text-pink-400">
         Shree<span className="text-red-400">Decore</span>
       </h1>

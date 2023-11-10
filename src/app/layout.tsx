@@ -4,6 +4,8 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar/navbar";
 import { Footer } from "@/components/footer/footer";
 
+import { EdgeStoreProvider } from "../lib/edgestore";
+
 const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
@@ -24,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <div className="">
+        <div className="flex flex-col  h-screen w-full">
           <Navbar />
-          <div className="max-w-[1560px] mx-auto px-6  ">
-            {children}
+          <div className="w-full max-w-[1560px] flex-1 mx-auto px-6  ">
+            <EdgeStoreProvider>{children}</EdgeStoreProvider>
             <Footer />{" "}
           </div>
         </div>

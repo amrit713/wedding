@@ -13,7 +13,7 @@ export const NavLow = () => {
       </h1>
 
       <div className="hidden md:flex">
-        <NavRoutes />
+        <NavRoutes isNavbar />
       </div>
 
       <div className="flex gap-x-2 items-center">
@@ -24,7 +24,9 @@ export const NavLow = () => {
           <FiSearch className="w-5 h-5" />
         </div>
 
-        <NavMobile />
+        <div className="md:hidden">
+          <NavMobile />
+        </div>
       </div>
     </div>
   );

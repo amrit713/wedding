@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Seperator } from "../ui/seperator";
+import { Separator } from "../ui/separator";
 
 export const Quote = () => {
   return (
@@ -22,7 +22,7 @@ export const Quote = () => {
             What <span className="uppercase">loves gives</span>
           </h1>
 
-          <Seperator color="border-white" />
+          <Separator color="border-white" />
         </div>
 
         <div className="">

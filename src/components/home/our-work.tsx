@@ -1,6 +1,6 @@
 "use client";
 
-import { Seperator } from "@/components/ui/seperator";
+import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 
 export const OurWork = () => {
@@ -11,7 +11,7 @@ export const OurWork = () => {
         <h1 className="text-xl uppercase font-semibold mb-2">
           our amazing work
         </h1>
-        <Seperator />
+        <Separator />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-6">
